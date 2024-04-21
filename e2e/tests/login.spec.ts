@@ -11,7 +11,7 @@ test.describe("Login page", () => {
     await login.loginAndVerifyUser({
       email: "oliver@example.com",
       password: "welcome",
-      userName: "Oliver Smith",
+      username: "Oliver Smith",
     });
   });
 });
